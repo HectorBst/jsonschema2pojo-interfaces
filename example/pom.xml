@@ -33,7 +33,7 @@
 							<targetPackage>
 								dev.hctbst.jsonschema2pojo.interfaces.example.domain
 							</targetPackage>
-							<generateBuilders>false</generateBuilders>
+							<generateBuilders>true</generateBuilders>
 							<useInnerClassBuilders>false</useInnerClassBuilders>
 							<includeAdditionalProperties>false</includeAdditionalProperties>
 							<useDoubleNumbers>true</useDoubleNumbers>
