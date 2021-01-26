@@ -9,6 +9,35 @@
 This project is a [*jsonschema2pojo*](https://github.com/joelittlejohn/jsonschema2pojo) extension dedicated to
 interface generation.
 
+## Features
+
+### Interfaces
+
+This extension generate interfaces. It acts like a post-processing tool removing all field and method bodies.
+
+E.g., this schema:
+```json
+{
+	"title": "Sample entity",
+	"type": "object",
+	"properties": {
+		"field": {
+			"title": "A field",
+			"type": "string"
+		}
+	}
+}
+```
+Will produce:
+```java
+public interface Entity {
+
+	String getField();
+
+	void setField(String field);
+}
+```
+
 ## Maven configuration
 
 Here is an example of how the extension can be added to the jsonschema2pojo Maven plugin.
