@@ -65,7 +65,7 @@ Here is an example of how the extension can be added to the jsonschema2pojo Mave
 	<dependencies>
 		<!-- Extension dependency -->
 		<dependency>
-			<groupId>dev.hctbst.jsonschema2pojo</groupId>
+			<groupId>dev.hctbst</groupId>
 			<artifactId>jsonschema2pojo-interfaces</artifactId>
 			<version>${jsonschema2pojo-interfaces.version}</version>
 		</dependency>
