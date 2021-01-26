@@ -14,7 +14,7 @@
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
 		<jsonschema2pojo.version>1.0.2</jsonschema2pojo.version>
-		<jsonschema2pojo-interfaces.version>0.0.1-SNAPSHOT</jsonschema2pojo-interfaces.version>
+		<jsonschema2pojo-interfaces.version>1.0.0</jsonschema2pojo-interfaces.version>
 	</properties>
 
 	<build>
@@ -33,7 +33,7 @@
 							<targetPackage>
 								dev.hctbst.jsonschema2pojo.interfaces.example.domain
 							</targetPackage>
-							<generateBuilders>true</generateBuilders>
+							<generateBuilders>false</generateBuilders>
 							<useInnerClassBuilders>false</useInnerClassBuilders>
 							<includeAdditionalProperties>false</includeAdditionalProperties>
 							<useDoubleNumbers>true</useDoubleNumbers>
